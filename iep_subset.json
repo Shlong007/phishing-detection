@@ -1,0 +1,2934 @@
+{
+  "description": "Annotated image-evasive phishing (IEP) subset of Phish360. Each entry gives the sample id, its ground-truth label, the three inconsistency scores and the final verdict produced by the method. Raw pages are not redistributed; download Phish360 from the link in the README and join on sample_id.",
+  "count": 183,
+  "samples": [
+    {
+      "sample_id": "P01340_phish",
+      "true_label": "phish",
+      "true_brand": "phish",
+      "BIS": 1.0,
+      "FIS": 0.0,
+      "IGS": 1.0,
+      "CS": 0.7,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P16719_outlook",
+      "true_label": "phish",
+      "true_brand": "outlook",
+      "BIS": 0.0,
+      "FIS": 1.0,
+      "IGS": 0.6667,
+      "CS": 0.5,
+      "votes": {
+        "url": "LEGITIMATE",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P14171_itau",
+      "true_label": "phish",
+      "true_brand": "itau",
+      "BIS": 0.0,
+      "FIS": 0.0,
+      "IGS": 0.75,
+      "CS": 0.225,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P16011_outlook",
+      "true_label": "phish",
+      "true_brand": "outlook",
+      "BIS": 1.0,
+      "FIS": 0.5,
+      "IGS": 1.0,
+      "CS": 0.85,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P10244_orange",
+      "true_label": "phish",
+      "true_brand": "orange",
+      "BIS": 1.0,
+      "FIS": 0.5,
+      "IGS": 1.0,
+      "CS": 0.85,
+      "votes": {
+        "url": "LEGITIMATE",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P14765_office",
+      "true_label": "phish",
+      "true_brand": "office",
+      "BIS": 0.0,
+      "FIS": 0.5,
+      "IGS": 1.0,
+      "CS": 0.45,
+      "votes": {
+        "url": "LEGITIMATE",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P01968_phish",
+      "true_label": "phish",
+      "true_brand": "phish",
+      "BIS": 0.0,
+      "FIS": 0.0,
+      "IGS": 1.0,
+      "CS": 0.3,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P10155_facebook",
+      "true_label": "phish",
+      "true_brand": "facebook",
+      "BIS": 0.0,
+      "FIS": 1.0,
+      "IGS": 0.6,
+      "CS": 0.48,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P16323_orange",
+      "true_label": "phish",
+      "true_brand": "orange",
+      "BIS": 0.0,
+      "FIS": 0.5,
+      "IGS": 1.0,
+      "CS": 0.45,
+      "votes": {
+        "url": "LEGITIMATE",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P02436_phish",
+      "true_label": "phish",
+      "true_brand": "phish",
+      "BIS": 0.5,
+      "FIS": 0.0,
+      "IGS": 0.6667,
+      "CS": 0.4,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P16215_office",
+      "true_label": "phish",
+      "true_brand": "office",
+      "BIS": 0.0,
+      "FIS": 0.5,
+      "IGS": 1.0,
+      "CS": 0.45,
+      "votes": {
+        "url": "LEGITIMATE",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P12526_wellsfargo",
+      "true_label": "phish",
+      "true_brand": "wellsfargo",
+      "BIS": 1.0,
+      "FIS": 0.0,
+      "IGS": 0.9,
+      "CS": 0.67,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P02374_phish",
+      "true_label": "phish",
+      "true_brand": "phish",
+      "BIS": 0.0,
+      "FIS": 0.0,
+      "IGS": 1.0,
+      "CS": 0.3,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P15580_amex",
+      "true_label": "phish",
+      "true_brand": "amex",
+      "BIS": 0.0,
+      "FIS": 0.0,
+      "IGS": 0.6667,
+      "CS": 0.2,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P11900_dhl",
+      "true_label": "phish",
+      "true_brand": "dhl",
+      "BIS": 0.0,
+      "FIS": 1.0,
+      "IGS": 1.0,
+      "CS": 0.6,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P16609_facebook",
+      "true_label": "phish",
+      "true_brand": "facebook",
+      "BIS": 0.0,
+      "FIS": 0.5,
+      "IGS": 1.0,
+      "CS": 0.45,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P14692_paypal",
+      "true_label": "phish",
+      "true_brand": "paypal",
+      "BIS": 0.0,
+      "FIS": 0.5,
+      "IGS": 1.0,
+      "CS": 0.45,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P02524_phish",
+      "true_label": "phish",
+      "true_brand": "phish",
+      "BIS": 0.0,
+      "FIS": 0.0,
+      "IGS": 1.0,
+      "CS": 0.3,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P12595_paypal",
+      "true_label": "phish",
+      "true_brand": "paypal",
+      "BIS": 0.0,
+      "FIS": 1.0,
+      "IGS": 0.5,
+      "CS": 0.45,
+      "votes": {
+        "url": "LEGITIMATE",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P16564_facebook",
+      "true_label": "phish",
+      "true_brand": "facebook",
+      "BIS": 1.0,
+      "FIS": 0.0,
+      "IGS": 0.6667,
+      "CS": 0.6,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P11868_netflix",
+      "true_label": "phish",
+      "true_brand": "netflix",
+      "BIS": 0.0,
+      "FIS": 0.0,
+      "IGS": 1.0,
+      "CS": 0.3,
+      "votes": {
+        "url": "LEGITIMATE",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P11245_office",
+      "true_label": "phish",
+      "true_brand": "office",
+      "BIS": 0.0,
+      "FIS": 0.0,
+      "IGS": 1.0,
+      "CS": 0.3,
+      "votes": {
+        "url": "LEGITIMATE",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P16400_sfr",
+      "true_label": "phish",
+      "true_brand": "sfr",
+      "BIS": 0.0,
+      "FIS": 0.5,
+      "IGS": 0.6667,
+      "CS": 0.35,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P16394_orange",
+      "true_label": "phish",
+      "true_brand": "orange",
+      "BIS": 0.5,
+      "FIS": 0.5,
+      "IGS": 1.0,
+      "CS": 0.65,
+      "votes": {
+        "url": "LEGITIMATE",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P16078_orange",
+      "true_label": "phish",
+      "true_brand": "orange",
+      "BIS": 0.0,
+      "FIS": 0.5,
+      "IGS": 0.75,
+      "CS": 0.375,
+      "votes": {
+        "url": "LEGITIMATE",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P02325_phish",
+      "true_label": "phish",
+      "true_brand": "phish",
+      "BIS": 0.0,
+      "FIS": 0.0,
+      "IGS": 1.0,
+      "CS": 0.3,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P02435_phish",
+      "true_label": "phish",
+      "true_brand": "phish",
+      "BIS": 0.0,
+      "FIS": 0.0,
+      "IGS": 1.0,
+      "CS": 0.3,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P10188_outlook",
+      "true_label": "phish",
+      "true_brand": "outlook",
+      "BIS": 0.5,
+      "FIS": 0.5,
+      "IGS": 1.0,
+      "CS": 0.65,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P02464_phish",
+      "true_label": "phish",
+      "true_brand": "phish",
+      "BIS": 0.0,
+      "FIS": 0.5,
+      "IGS": 1.0,
+      "CS": 0.45,
+      "votes": {
+        "url": "LEGITIMATE",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P01826_phish",
+      "true_label": "phish",
+      "true_brand": "phish",
+      "BIS": 0.0,
+      "FIS": 0.0,
+      "IGS": 1.0,
+      "CS": 0.3,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P12869_office",
+      "true_label": "phish",
+      "true_brand": "office",
+      "BIS": 0.0,
+      "FIS": 0.5,
+      "IGS": 1.0,
+      "CS": 0.45,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P16453_orange",
+      "true_label": "phish",
+      "true_brand": "orange",
+      "BIS": 0.5,
+      "FIS": 0.5,
+      "IGS": 1.0,
+      "CS": 0.65,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P01860_phish",
+      "true_label": "phish",
+      "true_brand": "phish",
+      "BIS": 0.0,
+      "FIS": 0.0,
+      "IGS": 1.0,
+      "CS": 0.3,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P16985_capitalone",
+      "true_label": "phish",
+      "true_brand": "capitalone",
+      "BIS": 0.0,
+      "FIS": 0.5,
+      "IGS": 0.6667,
+      "CS": 0.35,
+      "votes": {
+        "url": "LEGITIMATE",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P13096_adobe",
+      "true_label": "phish",
+      "true_brand": "adobe",
+      "BIS": 0.0,
+      "FIS": 0.0,
+      "IGS": 0.6667,
+      "CS": 0.2,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P02228_phish",
+      "true_label": "phish",
+      "true_brand": "phish",
+      "BIS": 0.0,
+      "FIS": 1.0,
+      "IGS": 0.5,
+      "CS": 0.45,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P11333_yahoo",
+      "true_label": "phish",
+      "true_brand": "yahoo",
+      "BIS": 1.0,
+      "FIS": 1.0,
+      "IGS": 1.0,
+      "CS": 1.0,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P01344_phish",
+      "true_label": "phish",
+      "true_brand": "phish",
+      "BIS": 0.0,
+      "FIS": 1.0,
+      "IGS": 1.0,
+      "CS": 0.6,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P02276_phish",
+      "true_label": "phish",
+      "true_brand": "phish",
+      "BIS": 0.5,
+      "FIS": 0.0,
+      "IGS": 1.0,
+      "CS": 0.5,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P17419_orange",
+      "true_label": "phish",
+      "true_brand": "orange",
+      "BIS": 0.5,
+      "FIS": 0.5,
+      "IGS": 1.0,
+      "CS": 0.65,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P16873_office",
+      "true_label": "phish",
+      "true_brand": "office",
+      "BIS": 0.0,
+      "FIS": 0.5,
+      "IGS": 1.0,
+      "CS": 0.45,
+      "votes": {
+        "url": "LEGITIMATE",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P01899_phish",
+      "true_label": "phish",
+      "true_brand": "phish",
+      "BIS": 0.0,
+      "FIS": 1.0,
+      "IGS": 0.75,
+      "CS": 0.525,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P19890_bt",
+      "true_label": "phish",
+      "true_brand": "bt",
+      "BIS": 0.0,
+      "FIS": 1.0,
+      "IGS": 0.6667,
+      "CS": 0.5,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P16024_facebook",
+      "true_label": "phish",
+      "true_brand": "facebook",
+      "BIS": 1.0,
+      "FIS": 0.5,
+      "IGS": 1.0,
+      "CS": 0.85,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P02441_phish",
+      "true_label": "phish",
+      "true_brand": "phish",
+      "BIS": 0.0,
+      "FIS": 1.0,
+      "IGS": 0.6667,
+      "CS": 0.5,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P01116_phish",
+      "true_label": "phish",
+      "true_brand": "phish",
+      "BIS": 0.0,
+      "FIS": 0.0,
+      "IGS": 1.0,
+      "CS": 0.3,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P13261_itau",
+      "true_label": "phish",
+      "true_brand": "itau",
+      "BIS": 0.0,
+      "FIS": 0.0,
+      "IGS": 1.0,
+      "CS": 0.3,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P16518_facebook",
+      "true_label": "phish",
+      "true_brand": "facebook",
+      "BIS": 1.0,
+      "FIS": 0.5,
+      "IGS": 1.0,
+      "CS": 0.85,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P01135_phish",
+      "true_label": "phish",
+      "true_brand": "phish",
+      "BIS": 0.0,
+      "FIS": 0.5,
+      "IGS": 1.0,
+      "CS": 0.45,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P16332_facebook",
+      "true_label": "phish",
+      "true_brand": "facebook",
+      "BIS": 1.0,
+      "FIS": 0.5,
+      "IGS": 1.0,
+      "CS": 0.85,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P16888_outlook",
+      "true_label": "phish",
+      "true_brand": "outlook",
+      "BIS": 0.0,
+      "FIS": 0.5,
+      "IGS": 1.0,
+      "CS": 0.45,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P10129_alibaba",
+      "true_label": "phish",
+      "true_brand": "alibaba",
+      "BIS": 0.0,
+      "FIS": 1.0,
+      "IGS": 1.0,
+      "CS": 0.6,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P11389_linkedin",
+      "true_label": "phish",
+      "true_brand": "linkedin",
+      "BIS": 0.0,
+      "FIS": 1.0,
+      "IGS": 0.5,
+      "CS": 0.45,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P01550_phish",
+      "true_label": "phish",
+      "true_brand": "phish",
+      "BIS": 0.0,
+      "FIS": 0.0,
+      "IGS": 1.0,
+      "CS": 0.3,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P16325_sfr",
+      "true_label": "phish",
+      "true_brand": "sfr",
+      "BIS": 0.0,
+      "FIS": 0.5,
+      "IGS": 1.0,
+      "CS": 0.45,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P01706_phish",
+      "true_label": "phish",
+      "true_brand": "phish",
+      "BIS": 0.0,
+      "FIS": 0.0,
+      "IGS": 0.75,
+      "CS": 0.225,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P02288_phish",
+      "true_label": "phish",
+      "true_brand": "phish",
+      "BIS": 0.0,
+      "FIS": 1.0,
+      "IGS": 1.0,
+      "CS": 0.6,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P12897_dhl",
+      "true_label": "phish",
+      "true_brand": "dhl",
+      "BIS": 0.5,
+      "FIS": 0.5,
+      "IGS": 0.6667,
+      "CS": 0.55,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P16330_paypal",
+      "true_label": "phish",
+      "true_brand": "paypal",
+      "BIS": 0.0,
+      "FIS": 0.0,
+      "IGS": 1.0,
+      "CS": 0.3,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P11452_adobe",
+      "true_label": "phish",
+      "true_brand": "adobe",
+      "BIS": 0.0,
+      "FIS": 0.5,
+      "IGS": 1.0,
+      "CS": 0.45,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P19558_dropbox",
+      "true_label": "phish",
+      "true_brand": "dropbox",
+      "BIS": 0.0,
+      "FIS": 0.0,
+      "IGS": 0.6667,
+      "CS": 0.2,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P02139_phish",
+      "true_label": "phish",
+      "true_brand": "phish",
+      "BIS": 0.0,
+      "FIS": 0.0,
+      "IGS": 0.6667,
+      "CS": 0.2,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P19398_office",
+      "true_label": "phish",
+      "true_brand": "office",
+      "BIS": 0.0,
+      "FIS": 0.5,
+      "IGS": 1.0,
+      "CS": 0.45,
+      "votes": {
+        "url": "LEGITIMATE",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P16785_orange",
+      "true_label": "phish",
+      "true_brand": "orange",
+      "BIS": 0.0,
+      "FIS": 0.5,
+      "IGS": 1.0,
+      "CS": 0.45,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P16277_match",
+      "true_label": "phish",
+      "true_brand": "match",
+      "BIS": 0.0,
+      "FIS": 0.0,
+      "IGS": 1.0,
+      "CS": 0.3,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P18846_office",
+      "true_label": "phish",
+      "true_brand": "office",
+      "BIS": 0.5,
+      "FIS": 0.5,
+      "IGS": 0.6667,
+      "CS": 0.55,
+      "votes": {
+        "url": "LEGITIMATE",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P01491_phish",
+      "true_label": "phish",
+      "true_brand": "phish",
+      "BIS": 0.0,
+      "FIS": 1.0,
+      "IGS": 1.0,
+      "CS": 0.6,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P02416_phish",
+      "true_label": "phish",
+      "true_brand": "phish",
+      "BIS": 0.0,
+      "FIS": 1.0,
+      "IGS": 1.0,
+      "CS": 0.6,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P16540_facebook",
+      "true_label": "phish",
+      "true_brand": "facebook",
+      "BIS": 0.0,
+      "FIS": 0.5,
+      "IGS": 0.5,
+      "CS": 0.3,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P12512_boa",
+      "true_label": "phish",
+      "true_brand": "boa",
+      "BIS": 0.0,
+      "FIS": 1.0,
+      "IGS": 1.0,
+      "CS": 0.6,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P02186_phish",
+      "true_label": "phish",
+      "true_brand": "phish",
+      "BIS": 0.0,
+      "FIS": 0.0,
+      "IGS": 1.0,
+      "CS": 0.3,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P15968_chase",
+      "true_label": "phish",
+      "true_brand": "chase",
+      "BIS": 0.0,
+      "FIS": 0.0,
+      "IGS": 1.0,
+      "CS": 0.3,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P13418_dropbox",
+      "true_label": "phish",
+      "true_brand": "dropbox",
+      "BIS": 0.0,
+      "FIS": 0.0,
+      "IGS": 1.0,
+      "CS": 0.3,
+      "votes": {
+        "url": "LEGITIMATE",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P02471_phish",
+      "true_label": "phish",
+      "true_brand": "phish",
+      "BIS": 0.0,
+      "FIS": 0.0,
+      "IGS": 0.75,
+      "CS": 0.225,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P11674_boa",
+      "true_label": "phish",
+      "true_brand": "boa",
+      "BIS": 0.0,
+      "FIS": 0.0,
+      "IGS": 1.0,
+      "CS": 0.3,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P01923_phish",
+      "true_label": "phish",
+      "true_brand": "phish",
+      "BIS": 0.0,
+      "FIS": 0.0,
+      "IGS": 1.0,
+      "CS": 0.3,
+      "votes": {
+        "url": "LEGITIMATE",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P10017_irs",
+      "true_label": "phish",
+      "true_brand": "irs",
+      "BIS": 0.0,
+      "FIS": 0.0,
+      "IGS": 1.0,
+      "CS": 0.3,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P01912_phish",
+      "true_label": "phish",
+      "true_brand": "phish",
+      "BIS": 0.0,
+      "FIS": 0.0,
+      "IGS": 0.75,
+      "CS": 0.225,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P13602_att",
+      "true_label": "phish",
+      "true_brand": "att",
+      "BIS": 0.5,
+      "FIS": 0.5,
+      "IGS": 0.6667,
+      "CS": 0.55,
+      "votes": {
+        "url": "LEGITIMATE",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P02328_phish",
+      "true_label": "phish",
+      "true_brand": "phish",
+      "BIS": 0.0,
+      "FIS": 0.0,
+      "IGS": 0.75,
+      "CS": 0.225,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P13484_bmo",
+      "true_label": "phish",
+      "true_brand": "bmo",
+      "BIS": 1.0,
+      "FIS": 1.0,
+      "IGS": 1.0,
+      "CS": 1.0,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P14860_usaa",
+      "true_label": "phish",
+      "true_brand": "usaa",
+      "BIS": 0.0,
+      "FIS": 0.0,
+      "IGS": 0.5,
+      "CS": 0.15,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P02287_phish",
+      "true_label": "phish",
+      "true_brand": "phish",
+      "BIS": 0.0,
+      "FIS": 1.0,
+      "IGS": 1.0,
+      "CS": 0.6,
+      "votes": {
+        "url": "LEGITIMATE",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P17256_linkedin",
+      "true_label": "phish",
+      "true_brand": "linkedin",
+      "BIS": 0.0,
+      "FIS": 0.5,
+      "IGS": 1.0,
+      "CS": 0.45,
+      "votes": {
+        "url": "LEGITIMATE",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P02203_phish",
+      "true_label": "phish",
+      "true_brand": "phish",
+      "BIS": 0.0,
+      "FIS": 1.0,
+      "IGS": 0.5,
+      "CS": 0.45,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P01466_phish",
+      "true_label": "phish",
+      "true_brand": "phish",
+      "BIS": 0.0,
+      "FIS": 0.0,
+      "IGS": 1.0,
+      "CS": 0.3,
+      "votes": {
+        "url": "LEGITIMATE",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P16050_aol",
+      "true_label": "phish",
+      "true_brand": "aol",
+      "BIS": 0.0,
+      "FIS": 0.5,
+      "IGS": 1.0,
+      "CS": 0.45,
+      "votes": {
+        "url": "LEGITIMATE",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P01037_phish",
+      "true_label": "phish",
+      "true_brand": "phish",
+      "BIS": 0.0,
+      "FIS": 1.0,
+      "IGS": 0.75,
+      "CS": 0.525,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P01675_phish",
+      "true_label": "phish",
+      "true_brand": "phish",
+      "BIS": 0.5,
+      "FIS": 0.0,
+      "IGS": 1.0,
+      "CS": 0.5,
+      "votes": {
+        "url": "LEGITIMATE",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P10337_cibc",
+      "true_label": "phish",
+      "true_brand": "cibc",
+      "BIS": 0.0,
+      "FIS": 0.0,
+      "IGS": 1.0,
+      "CS": 0.3,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P19522_paypal",
+      "true_label": "phish",
+      "true_brand": "paypal",
+      "BIS": 0.0,
+      "FIS": 0.0,
+      "IGS": 1.0,
+      "CS": 0.3,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P16139_bradesco",
+      "true_label": "phish",
+      "true_brand": "bradesco",
+      "BIS": 0.0,
+      "FIS": 0.5,
+      "IGS": 1.0,
+      "CS": 0.45,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P10230_dhl",
+      "true_label": "phish",
+      "true_brand": "dhl",
+      "BIS": 0.5,
+      "FIS": 0.5,
+      "IGS": 1.0,
+      "CS": 0.65,
+      "votes": {
+        "url": "LEGITIMATE",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P14304_att",
+      "true_label": "phish",
+      "true_brand": "att",
+      "BIS": 0.5,
+      "FIS": 0.5,
+      "IGS": 1.0,
+      "CS": 0.65,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P17580_bt",
+      "true_label": "phish",
+      "true_brand": "bt",
+      "BIS": 0.0,
+      "FIS": 1.0,
+      "IGS": 0.5,
+      "CS": 0.45,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P13891_itau",
+      "true_label": "phish",
+      "true_brand": "itau",
+      "BIS": 0.0,
+      "FIS": 0.0,
+      "IGS": 1.0,
+      "CS": 0.3,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P14854_paypal",
+      "true_label": "phish",
+      "true_brand": "paypal",
+      "BIS": 0.0,
+      "FIS": 0.5,
+      "IGS": 1.0,
+      "CS": 0.45,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P01742_phish",
+      "true_label": "phish",
+      "true_brand": "phish",
+      "BIS": 0.0,
+      "FIS": 0.0,
+      "IGS": 0.6667,
+      "CS": 0.2,
+      "votes": {
+        "url": "LEGITIMATE",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P01450_phish",
+      "true_label": "phish",
+      "true_brand": "phish",
+      "BIS": 0.0,
+      "FIS": 1.0,
+      "IGS": 1.0,
+      "CS": 0.6,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P14584_amex",
+      "true_label": "phish",
+      "true_brand": "amex",
+      "BIS": 1.0,
+      "FIS": 0.5,
+      "IGS": 0.8,
+      "CS": 0.79,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P16755_yahoo",
+      "true_label": "phish",
+      "true_brand": "yahoo",
+      "BIS": 0.0,
+      "FIS": 0.5,
+      "IGS": 1.0,
+      "CS": 0.45,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P10005_orange",
+      "true_label": "phish",
+      "true_brand": "orange",
+      "BIS": 0.5,
+      "FIS": 0.5,
+      "IGS": 0.6667,
+      "CS": 0.55,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P15347_dhl",
+      "true_label": "phish",
+      "true_brand": "dhl",
+      "BIS": 0.0,
+      "FIS": 0.0,
+      "IGS": 0.6667,
+      "CS": 0.2,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P16053_orange",
+      "true_label": "phish",
+      "true_brand": "orange",
+      "BIS": 0.0,
+      "FIS": 0.5,
+      "IGS": 0.6667,
+      "CS": 0.35,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P01056_phish",
+      "true_label": "phish",
+      "true_brand": "phish",
+      "BIS": 0.0,
+      "FIS": 0.5,
+      "IGS": 1.0,
+      "CS": 0.45,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P16311_orange",
+      "true_label": "phish",
+      "true_brand": "orange",
+      "BIS": 0.0,
+      "FIS": 0.5,
+      "IGS": 1.0,
+      "CS": 0.45,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P01071_phish",
+      "true_label": "phish",
+      "true_brand": "phish",
+      "BIS": 0.0,
+      "FIS": 1.0,
+      "IGS": 1.0,
+      "CS": 0.6,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P01863_phish",
+      "true_label": "phish",
+      "true_brand": "phish",
+      "BIS": 0.0,
+      "FIS": 1.0,
+      "IGS": 0.75,
+      "CS": 0.525,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P18902_adobe",
+      "true_label": "phish",
+      "true_brand": "adobe",
+      "BIS": 0.5,
+      "FIS": 0.5,
+      "IGS": 1.0,
+      "CS": 0.65,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P16022_sfr",
+      "true_label": "phish",
+      "true_brand": "sfr",
+      "BIS": 0.0,
+      "FIS": 0.5,
+      "IGS": 1.0,
+      "CS": 0.45,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P16350_outlook",
+      "true_label": "phish",
+      "true_brand": "outlook",
+      "BIS": 0.0,
+      "FIS": 1.0,
+      "IGS": 0.6667,
+      "CS": 0.5,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P15721_outlook",
+      "true_label": "phish",
+      "true_brand": "outlook",
+      "BIS": 1.0,
+      "FIS": 0.5,
+      "IGS": 0.6667,
+      "CS": 0.75,
+      "votes": {
+        "url": "LEGITIMATE",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P14451_paypal",
+      "true_label": "phish",
+      "true_brand": "paypal",
+      "BIS": 0.0,
+      "FIS": 1.0,
+      "IGS": 1.0,
+      "CS": 0.6,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P16061_outlook",
+      "true_label": "phish",
+      "true_brand": "outlook",
+      "BIS": 1.0,
+      "FIS": 0.5,
+      "IGS": 1.0,
+      "CS": 0.85,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P19683_office",
+      "true_label": "phish",
+      "true_brand": "office",
+      "BIS": 0.0,
+      "FIS": 0.5,
+      "IGS": 0.6667,
+      "CS": 0.35,
+      "votes": {
+        "url": "LEGITIMATE",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P02487_phish",
+      "true_label": "phish",
+      "true_brand": "phish",
+      "BIS": 0.0,
+      "FIS": 0.0,
+      "IGS": 1.0,
+      "CS": 0.3,
+      "votes": {
+        "url": "LEGITIMATE",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P19331_microsoft",
+      "true_label": "phish",
+      "true_brand": "microsoft",
+      "BIS": 0.0,
+      "FIS": 0.0,
+      "IGS": 1.0,
+      "CS": 0.3,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P02252_phish",
+      "true_label": "phish",
+      "true_brand": "phish",
+      "BIS": 0.0,
+      "FIS": 0.5,
+      "IGS": 1.0,
+      "CS": 0.45,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P01770_phish",
+      "true_label": "phish",
+      "true_brand": "phish",
+      "BIS": 0.0,
+      "FIS": 0.0,
+      "IGS": 1.0,
+      "CS": 0.3,
+      "votes": {
+        "url": "LEGITIMATE",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P19565_linkedin",
+      "true_label": "phish",
+      "true_brand": "linkedin",
+      "BIS": 0.5,
+      "FIS": 0.5,
+      "IGS": 0.5,
+      "CS": 0.5,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P12167_outlook",
+      "true_label": "phish",
+      "true_brand": "outlook",
+      "BIS": 0.5,
+      "FIS": 0.5,
+      "IGS": 0.5,
+      "CS": 0.5,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P16677_facebook",
+      "true_label": "phish",
+      "true_brand": "facebook",
+      "BIS": 0.5,
+      "FIS": 0.5,
+      "IGS": 0.6667,
+      "CS": 0.55,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P02051_phish",
+      "true_label": "phish",
+      "true_brand": "phish",
+      "BIS": 0.0,
+      "FIS": 0.0,
+      "IGS": 0.6667,
+      "CS": 0.2,
+      "votes": {
+        "url": "LEGITIMATE",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P12582_sfr",
+      "true_label": "phish",
+      "true_brand": "sfr",
+      "BIS": 0.0,
+      "FIS": 0.0,
+      "IGS": 1.0,
+      "CS": 0.3,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P16676_paypal",
+      "true_label": "phish",
+      "true_brand": "paypal",
+      "BIS": 0.0,
+      "FIS": 1.0,
+      "IGS": 1.0,
+      "CS": 0.6,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P02161_phish",
+      "true_label": "phish",
+      "true_brand": "phish",
+      "BIS": 1.0,
+      "FIS": 0.0,
+      "IGS": 1.0,
+      "CS": 0.7,
+      "votes": {
+        "url": "LEGITIMATE",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P01788_phish",
+      "true_label": "phish",
+      "true_brand": "phish",
+      "BIS": 0.0,
+      "FIS": 0.0,
+      "IGS": 1.0,
+      "CS": 0.3,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P01500_phish",
+      "true_label": "phish",
+      "true_brand": "phish",
+      "BIS": 0.0,
+      "FIS": 1.0,
+      "IGS": 1.0,
+      "CS": 0.6,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P16882_aol",
+      "true_label": "phish",
+      "true_brand": "aol",
+      "BIS": 0.0,
+      "FIS": 0.5,
+      "IGS": 1.0,
+      "CS": 0.45,
+      "votes": {
+        "url": "LEGITIMATE",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P12624_sfr",
+      "true_label": "phish",
+      "true_brand": "sfr",
+      "BIS": 0.0,
+      "FIS": 0.0,
+      "IGS": 0.6667,
+      "CS": 0.2,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P14787_office",
+      "true_label": "phish",
+      "true_brand": "office",
+      "BIS": 0.0,
+      "FIS": 0.5,
+      "IGS": 1.0,
+      "CS": 0.45,
+      "votes": {
+        "url": "LEGITIMATE",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P16136_outlook",
+      "true_label": "phish",
+      "true_brand": "outlook",
+      "BIS": 0.0,
+      "FIS": 0.5,
+      "IGS": 1.0,
+      "CS": 0.45,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P01699_phish",
+      "true_label": "phish",
+      "true_brand": "phish",
+      "BIS": 1.0,
+      "FIS": 1.0,
+      "IGS": 0.75,
+      "CS": 0.925,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P02440_phish",
+      "true_label": "phish",
+      "true_brand": "phish",
+      "BIS": 0.0,
+      "FIS": 0.0,
+      "IGS": 0.6667,
+      "CS": 0.2,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P19645_outlook",
+      "true_label": "phish",
+      "true_brand": "outlook",
+      "BIS": 0.5,
+      "FIS": 0.5,
+      "IGS": 0.5,
+      "CS": 0.5,
+      "votes": {
+        "url": "LEGITIMATE",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P01811_phish",
+      "true_label": "phish",
+      "true_brand": "phish",
+      "BIS": 0.0,
+      "FIS": 0.0,
+      "IGS": 1.0,
+      "CS": 0.3,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P14721_cox",
+      "true_label": "phish",
+      "true_brand": "cox",
+      "BIS": 0.0,
+      "FIS": 1.0,
+      "IGS": 1.0,
+      "CS": 0.6,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P19834_office",
+      "true_label": "phish",
+      "true_brand": "office",
+      "BIS": 1.0,
+      "FIS": 0.5,
+      "IGS": 1.0,
+      "CS": 0.85,
+      "votes": {
+        "url": "LEGITIMATE",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P13178_microsoft",
+      "true_label": "phish",
+      "true_brand": "microsoft",
+      "BIS": 0.0,
+      "FIS": 0.5,
+      "IGS": 0.75,
+      "CS": 0.375,
+      "votes": {
+        "url": "LEGITIMATE",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P19979_office",
+      "true_label": "phish",
+      "true_brand": "office",
+      "BIS": 1.0,
+      "FIS": 0.5,
+      "IGS": 1.0,
+      "CS": 0.85,
+      "votes": {
+        "url": "LEGITIMATE",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P02095_phish",
+      "true_label": "phish",
+      "true_brand": "phish",
+      "BIS": 0.0,
+      "FIS": 0.0,
+      "IGS": 0.6667,
+      "CS": 0.2,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P15096_paypal",
+      "true_label": "phish",
+      "true_brand": "paypal",
+      "BIS": 0.5,
+      "FIS": 0.5,
+      "IGS": 1.0,
+      "CS": 0.65,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P01616_phish",
+      "true_label": "phish",
+      "true_brand": "phish",
+      "BIS": 1.0,
+      "FIS": 0.0,
+      "IGS": 0.75,
+      "CS": 0.625,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P01787_phish",
+      "true_label": "phish",
+      "true_brand": "phish",
+      "BIS": 0.0,
+      "FIS": 0.0,
+      "IGS": 1.0,
+      "CS": 0.3,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P14389_amex",
+      "true_label": "phish",
+      "true_brand": "amex",
+      "BIS": 0.0,
+      "FIS": 1.0,
+      "IGS": 1.0,
+      "CS": 0.6,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P01574_phish",
+      "true_label": "phish",
+      "true_brand": "phish",
+      "BIS": 0.0,
+      "FIS": 1.0,
+      "IGS": 0.6667,
+      "CS": 0.5,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P18000_dhl",
+      "true_label": "phish",
+      "true_brand": "dhl",
+      "BIS": 0.0,
+      "FIS": 0.0,
+      "IGS": 1.0,
+      "CS": 0.3,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P12424_google",
+      "true_label": "phish",
+      "true_brand": "google",
+      "BIS": 0.0,
+      "FIS": 0.5,
+      "IGS": 0.75,
+      "CS": 0.375,
+      "votes": {
+        "url": "LEGITIMATE",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P11731_amazon",
+      "true_label": "phish",
+      "true_brand": "amazon",
+      "BIS": 0.0,
+      "FIS": 0.0,
+      "IGS": 0.6667,
+      "CS": 0.2,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P01444_phish",
+      "true_label": "phish",
+      "true_brand": "phish",
+      "BIS": 0.0,
+      "FIS": 0.0,
+      "IGS": 1.0,
+      "CS": 0.3,
+      "votes": {
+        "url": "LEGITIMATE",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P16791_outlook",
+      "true_label": "phish",
+      "true_brand": "outlook",
+      "BIS": 1.0,
+      "FIS": 0.5,
+      "IGS": 0.5,
+      "CS": 0.7,
+      "votes": {
+        "url": "LEGITIMATE",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P02437_phish",
+      "true_label": "phish",
+      "true_brand": "phish",
+      "BIS": 0.0,
+      "FIS": 0.0,
+      "IGS": 1.0,
+      "CS": 0.3,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P12163_orange",
+      "true_label": "phish",
+      "true_brand": "orange",
+      "BIS": 0.0,
+      "FIS": 0.5,
+      "IGS": 1.0,
+      "CS": 0.45,
+      "votes": {
+        "url": "LEGITIMATE",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P15046_cox",
+      "true_label": "phish",
+      "true_brand": "cox",
+      "BIS": 0.0,
+      "FIS": 1.0,
+      "IGS": 1.0,
+      "CS": 0.6,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P14487_alibaba",
+      "true_label": "phish",
+      "true_brand": "alibaba",
+      "BIS": 0.0,
+      "FIS": 0.0,
+      "IGS": 1.0,
+      "CS": 0.3,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P16327_apple",
+      "true_label": "phish",
+      "true_brand": "apple",
+      "BIS": 1.0,
+      "FIS": 0.5,
+      "IGS": 0.6667,
+      "CS": 0.75,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P13587_amex",
+      "true_label": "phish",
+      "true_brand": "amex",
+      "BIS": 0.0,
+      "FIS": 0.0,
+      "IGS": 0.5,
+      "CS": 0.15,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P01400_phish",
+      "true_label": "phish",
+      "true_brand": "phish",
+      "BIS": 1.0,
+      "FIS": 0.0,
+      "IGS": 1.0,
+      "CS": 0.7,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P18108_dhl",
+      "true_label": "phish",
+      "true_brand": "dhl",
+      "BIS": 0.5,
+      "FIS": 0.5,
+      "IGS": 1.0,
+      "CS": 0.65,
+      "votes": {
+        "url": "LEGITIMATE",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P17563_facebook",
+      "true_label": "phish",
+      "true_brand": "facebook",
+      "BIS": 0.0,
+      "FIS": 1.0,
+      "IGS": 1.0,
+      "CS": 0.6,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P11293_dhl",
+      "true_label": "phish",
+      "true_brand": "dhl",
+      "BIS": 0.0,
+      "FIS": 0.5,
+      "IGS": 1.0,
+      "CS": 0.45,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P16812_outlook",
+      "true_label": "phish",
+      "true_brand": "outlook",
+      "BIS": 0.5,
+      "FIS": 0.5,
+      "IGS": 1.0,
+      "CS": 0.65,
+      "votes": {
+        "url": "LEGITIMATE",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P12038_outlook",
+      "true_label": "phish",
+      "true_brand": "outlook",
+      "BIS": 0.5,
+      "FIS": 0.5,
+      "IGS": 0.5,
+      "CS": 0.5,
+      "votes": {
+        "url": "LEGITIMATE",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P16711_office",
+      "true_label": "phish",
+      "true_brand": "office",
+      "BIS": 0.0,
+      "FIS": 0.5,
+      "IGS": 0.6667,
+      "CS": 0.35,
+      "votes": {
+        "url": "LEGITIMATE",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P02028_phish",
+      "true_label": "phish",
+      "true_brand": "phish",
+      "BIS": 0.0,
+      "FIS": 0.5,
+      "IGS": 0.8,
+      "CS": 0.39,
+      "votes": {
+        "url": "LEGITIMATE",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P13532_capitalone",
+      "true_label": "phish",
+      "true_brand": "capitalone",
+      "BIS": 0.0,
+      "FIS": 1.0,
+      "IGS": 0.75,
+      "CS": 0.525,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P15935_microsoft",
+      "true_label": "phish",
+      "true_brand": "microsoft",
+      "BIS": 0.0,
+      "FIS": 0.0,
+      "IGS": 1.0,
+      "CS": 0.3,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P19409_apple",
+      "true_label": "phish",
+      "true_brand": "apple",
+      "BIS": 0.0,
+      "FIS": 0.0,
+      "IGS": 1.0,
+      "CS": 0.3,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P01346_phish",
+      "true_label": "phish",
+      "true_brand": "phish",
+      "BIS": 0.0,
+      "FIS": 1.0,
+      "IGS": 1.0,
+      "CS": 0.6,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P01105_phish",
+      "true_label": "phish",
+      "true_brand": "phish",
+      "BIS": 0.5,
+      "FIS": 0.5,
+      "IGS": 0.6667,
+      "CS": 0.55,
+      "votes": {
+        "url": "LEGITIMATE",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P16081_orange",
+      "true_label": "phish",
+      "true_brand": "orange",
+      "BIS": 0.0,
+      "FIS": 0.5,
+      "IGS": 1.0,
+      "CS": 0.45,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P14317_outlook",
+      "true_label": "phish",
+      "true_brand": "outlook",
+      "BIS": 0.5,
+      "FIS": 0.5,
+      "IGS": 0.5,
+      "CS": 0.5,
+      "votes": {
+        "url": "LEGITIMATE",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P01638_phish",
+      "true_label": "phish",
+      "true_brand": "phish",
+      "BIS": 0.0,
+      "FIS": 0.0,
+      "IGS": 1.0,
+      "CS": 0.3,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P13182_office",
+      "true_label": "phish",
+      "true_brand": "office",
+      "BIS": 1.0,
+      "FIS": 0.5,
+      "IGS": 1.0,
+      "CS": 0.85,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P02289_phish",
+      "true_label": "phish",
+      "true_brand": "phish",
+      "BIS": 0.0,
+      "FIS": 1.0,
+      "IGS": 0.6667,
+      "CS": 0.5,
+      "votes": {
+        "url": "LEGITIMATE",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P01002_phish",
+      "true_label": "phish",
+      "true_brand": "phish",
+      "BIS": 1.0,
+      "FIS": 0.0,
+      "IGS": 0.5,
+      "CS": 0.55,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P11172_amazon",
+      "true_label": "phish",
+      "true_brand": "amazon",
+      "BIS": 0.0,
+      "FIS": 0.0,
+      "IGS": 1.0,
+      "CS": 0.3,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P14866_paypal",
+      "true_label": "phish",
+      "true_brand": "paypal",
+      "BIS": 0.0,
+      "FIS": 0.5,
+      "IGS": 0.5,
+      "CS": 0.3,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P11307_paypal",
+      "true_label": "phish",
+      "true_brand": "paypal",
+      "BIS": 0.0,
+      "FIS": 1.0,
+      "IGS": 1.0,
+      "CS": 0.6,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P13538_ebay",
+      "true_label": "phish",
+      "true_brand": "ebay",
+      "BIS": 1.0,
+      "FIS": 0.0,
+      "IGS": 0.5,
+      "CS": 0.55,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P19825_att",
+      "true_label": "phish",
+      "true_brand": "att",
+      "BIS": 1.0,
+      "FIS": 0.5,
+      "IGS": 1.0,
+      "CS": 0.85,
+      "votes": {
+        "url": "LEGITIMATE",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    },
+    {
+      "sample_id": "P14725_paypal",
+      "true_label": "phish",
+      "true_brand": "paypal",
+      "BIS": 0.0,
+      "FIS": 1.0,
+      "IGS": 1.0,
+      "CS": 0.6,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "PHISHING"
+    },
+    {
+      "sample_id": "P01953_phish",
+      "true_label": "phish",
+      "true_brand": "phish",
+      "BIS": 0.5,
+      "FIS": 0.5,
+      "IGS": 1.0,
+      "CS": 0.65,
+      "votes": {
+        "url": "PHISHING",
+        "html": "LEGITIMATE",
+        "text": "LEGITIMATE",
+        "visual": "PHISHING"
+      },
+      "verdict": "LEGITIMATE"
+    }
+  ]
+}
